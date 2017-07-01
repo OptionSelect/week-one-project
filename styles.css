@@ -1,0 +1,244 @@
+/*Background: #F2F1E8
+Text: #131511
+Inline Link: #968772
+Inline Link (Hover): #967343
+Navigation Background: #FFFFFF
+Navigation Text: #2B2F26
+Navigation Text (Hover): #CD5D67
+Navigation Text (Active) #968772
+Button Background: #968772
+Button Background (Hover): #967343
+Button Text: #F2F1E8
+Button Text (Hover): #FFFFFF
+Input Border Bottom: #968772
+Input Border Bottom (Focus): #967343*/
+html{
+  margin: 0;
+  padding: 0;
+  font-family: Merriweather, Roboto;
+}
+main{
+  flex-flow: row wrap;
+}
+.flex {
+  display: flex;
+}
+body{
+  background-color: #F2F1E8;
+  flex-wrap: nowrap;
+}
+.site-header{
+  background-color: white;
+  background-image: url("images/bent-creek-logo.png");
+  background-repeat: no-repeat;
+  height: 7em;
+  width: 100%;
+}
+nav{
+  padding: 2% 1%;
+  margin: 10px 30px;
+  justify-content: center;
+  display: flex;
+}
+nav > a{
+  font-size: 2em;
+  margin: 0 20px;
+  color: #131511;
+}
+a:visited{
+  color: #968772;
+}
+.hpover{
+  font-weight: 500;
+  font-size: 4em;
+  text-align: center;
+}
+.hpunder{
+  font-weight: 100;
+  text-align: center;
+}
+li span{
+  position: absolute;
+  top: 1em;
+}
+footer{
+  margin-top: 20px;
+  background-color: #2B2F26;
+  color: white;
+  padding: 20px;
+  width: 100%;
+}
+.wrapper{
+  flex-direction: column;
+  align-items: center;
+}
+.abouttitle{
+  font-size: 3em;
+  text-align: center;
+  font-weight: 500;
+}
+.birdhouse{
+  float: left;
+  margin-right: 20px;
+  padding-bottom: 15px;
+}
+.wrapper2 img{
+  height: 247px;
+  width: 355px;
+}
+.room{
+  background-image: url("images/background-3.jpg");
+  background-size: cover;
+  height: 250px;
+  width: 100%;
+}
+.roomtext{
+  justify-content: center;
+  padding-top: 3em;
+  font-size: 35px;
+  color: white;
+}
+table{
+  justify-content: center;
+}
+table, th, tr, td{
+  border: 1px solid black;
+  text-align: center;
+}
+td:nth-child(even){
+  background-color: #F2EADC;
+}
+.wrapper2{
+  width: 80%;
+}
+.wrapper3{
+  width: 80%;
+}
+.row1{
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: nowrap;
+  list-style: none;
+  margin-bottom: -1em;
+}
+.row2{
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: nowrap;
+  list-style: none;
+}
+.p1{
+  position: relative;
+  text-align: center;
+}
+.p2{
+  position: relative;
+  text-align: center;
+}
+.p3{
+  position: relative;
+  text-align: center;
+}
+.p4{
+  position: relative;
+  text-align: center;
+}
+.p5{
+  position: relative;
+  text-align: center;
+}
+.p6{
+  position: relative;
+  text-align: center;
+}
+.p7{
+  position: relative;
+  text-align: center;
+}
+.p1 img{
+  width: 728px;
+  height: 371px;
+  margin: 10px;
+}
+.p2 img{
+  width: 232px;
+  height: 371px;
+  margin: 10px;
+}
+.p3 img{
+  width: 232px;
+  height: 371px;
+  margin: 10px;
+}
+.p4 img{
+  width: 231px;
+  height: 243px;
+  margin: 10px;
+}
+.p5 img{
+  width: 231px;
+  height: 243px;
+  margin: 10px;
+}
+.p6 img{
+  width: 483px;
+  height: 243px;
+  margin: 10px;
+}
+.p7 img{
+  width: 231px;
+  height: 243px;
+  margin: 10px;
+}
+.p1 span{
+  padding: 10px;
+  left: 20px;
+  margin-top: 20em;
+  color: white;
+  background-color: rgb(32, 36, 39);
+}
+.p2 span{
+  padding: 10px;
+  margin-top: 20em;
+  left: 20px;
+  color: white;
+  background-color: rgb(32, 36, 39);
+}
+.p3 span{
+  padding: 10px;
+  margin-top: 20em;
+  left: 20px;
+  color: white;
+  background-color: rgb(32, 36, 39);
+}
+.p4 span{
+  padding: 10px;
+  margin-top: 12em;
+  left: 20px;
+  color: white;
+  background-color: rgb(32, 36, 39);
+}
+.p5 span{
+  padding: 10px;
+  margin-top: 12em;
+  left: 20px;
+  color: white;
+  background-color: rgb(32, 36, 39);
+}
+.p6 span{
+  padding: 10px;
+  margin-top: 12em;
+  left: 20px;
+  color: white;
+  background-color: rgb(32, 36, 39);
+}
+.p7 span{
+  padding: 10px;
+  margin-top: 12em;
+  left: 20px;
+  color: white;
+  background-color: rgb(32, 36, 39);
+}
+.mainmain{
+  justify-content: center;
+}
