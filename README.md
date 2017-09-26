@@ -1,2 +1,3 @@
-#Week One Project\n- HTML\n- CSS
-# week-one-project
+# Week-one-project
+
+Created a newsletter using HTML & CSS.
